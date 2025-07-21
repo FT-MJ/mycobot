@@ -9,7 +9,7 @@ ROS 2 version : Humble
 ロボットモデル： mycobot（`https://docs.elephantrobotics.com/docs/gitbook-en/2-serialproduct/2.1-280/2.1.4.1%20Introduction%20of%20product%20parameters.html`）
 
 ## 動作手順
-任意の`ros2`ワークスペースの`src`ディレクトリに`mycobot_moveit_config`をダウンロードする。
+任意の`ros2`ワークスペースの`src`ディレクトリに移動し、`mycobot_moveit_config`をダウンロードする。
 
 URDFファイルを下記コマンドで`/opt/ros/humble/share/moveit_setup_assistant`へコピーしておく。管理者権限ではないとコピーできない場所なのでsudoを使うこと。
 ```bash

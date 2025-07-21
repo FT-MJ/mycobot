@@ -21,6 +21,19 @@ sudo apt install -y \
   ros-humble-ros-gz \
   ros-humble-xacro
 ```
+
+### 2 必要なパッケージのインストール
+
+```bash
+sudo apt update
+sudo apt install -y \
+  ros-humble-moveit \
+  ros-humble-gazebo-ros-pkgs \
+  ros-humble-ros2-control \
+  ros-humble-ros2-controllers \
+  ros-humble-ros-gz \
+  ros-humble-xacro
+```
 ### 2 ファイルのダウンロード 
 任意の`ros2`ワークスペースの`src`ディレクトリに移動し、`mycobot_moveit_config`をダウンロードする。
 

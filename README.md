@@ -51,7 +51,7 @@ sudo cp mycobot.urdf /opt/ros/humble/share/moveit_setup_assistant
 
 ### 3 ビルドと実行
 #### 3.1 ビルド
-ワークスペースのルートディレクトリに戻り、ビルドします。
+ワークスペースのルートディレクトリに戻り、ビルドする。
 ```bash
 cd ../..
 source /opt/ros/humble/setup.bash
@@ -68,7 +68,7 @@ ros2 launch mycobot_moveit_config demo.launch.py
 
 ### 4 動作確認
 
-1.  RVizの`MotionPlanning`パネルを開きます。
-2.  `Planning`タブの`Query`セクションで、`Planning Group`が`mycobot`になっていることを確認します。
-3.  3Dビュー内で、エンドエフェクタ（水色の球体）の先にあるインタラクティブマーカーをドラッグして、目標の姿勢（Goal State）を設定します。
-4.  `Plan and Execute`ボタンをクリックします。
+1.  RVizの`MotionPlanning`パネルを開く。
+2.  `Planning`タブの`Query`セクションで、`Planning Group`が`mycobot`になっていることを確認する。
+3.  3Dビュー内で、エンドエフェクタ（水色の球体）の先にあるインタラクティブマーカーをドラッグして、目標の姿勢（Goal State）を設定する。
+4.  `Plan and Execute`ボタンをクリックする。

@@ -8,7 +8,7 @@ ROS 2 version : Humble
 
 ロボットモデル： MyCobot（`https://docs.elephantrobotics.com/docs/gitbook-en/2-serialproduct/2.1-280/2.1.4.1%20Introduction%20of%20product%20parameters.html`）
 ## MyCobotのモデル
-上記ロボットのパラメータの表をcsvファイルで記載した例を示す．
+MyCobotのパラメータの表を示す．
 
 | link       | child\_link | link\_rpy | link\_xyz          | link\_size           | link\_color | link\_mass | ... | joint\_xyz1       | joint\_axis1 | ... |
 | ---------- | ----------- | --------- | ------------------ | -------------------- | ----------- | ---------- |-----| ----------------- | ------------ |-----|

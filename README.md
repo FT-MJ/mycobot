@@ -14,12 +14,11 @@ ROS 2 version : Humble
 ```bash
 sudo apt update
 sudo apt install -y \
-  ros-humble-moveit \
-  ros-humble-gazebo-ros-pkgs \
+  ros-humble-moveit-configs-utils \
+  ros-humble-moveit-setup-assistant \
   ros-humble-ros2-control \
-  ros-humble-ros2-controllers \
-  ros-humble-ros-gz \
-  ros-humble-xacro
+  ros-humble-controller-manager \
+  ros-humble-ros2-controllers 
 ```
 
 ### 2 ファイルのダウンロード 

@@ -6,7 +6,20 @@
 
 ROS 2 version : Humble
 
-ロボットモデル： mycobot（`https://docs.elephantrobotics.com/docs/gitbook-en/2-serialproduct/2.1-280/2.1.4.1%20Introduction%20of%20product%20parameters.html`）
+ロボットモデル： MyCobot（`https://docs.elephantrobotics.com/docs/gitbook-en/2-serialproduct/2.1-280/2.1.4.1%20Introduction%20of%20product%20parameters.html`）
+## MyCobotのモデル
+上記ロボットのパラメータの表をcsvファイルで記載した例を示す．
+| link       | child\_link | link\_rpy | link\_xyz          | link\_size           | link\_color | link\_mass |
+| ---------- | ----------- | --------- | ------------------ | -------------------- | ----------- | ---------- |
+| world      | base\_link  | 0 0 0     | 0 0 0              | 0 0 0                | blue        | 0          |
+| base\_link | Link1       | 0 0 0     | 0 0 0.0            | 0.03 0.03 0.001      | blue        | 0          |
+| Link1      | Link2       | 0 0 0     | 0 0 0.065575       | 0.03 0.03 0.13155    | red         | 1          |
+| Link2      | Link3       | 0 0 0     | 0 0 0              | 0 0 0                | green       | 1          |
+| Link3      | Link4       | 0 0 0     | 0 0 0.0552         | 0.03 0.03 0.1104     | blue        | 1          |
+| Link4      | Link5       | 0 0 0     | 0 0 0.048          | 0.03 0.03 0.096      | red         | 1          |
+| Link5      | Link6       | 0 0 0     | 0 0.033195 0.03664 | 0.03 0.06639 0.07328 | green       | 1          |
+| Link6      | Link7       | 0 0 0     | 0 0.0218 0         | 0.03 0.0436 0.03     | blue        | 1          |
+| Link7      | 0           | 0 0 0     | 0 0 0              | 0.03 0.02 0.03       | red         | 1          |
 
 ## 動作手順
 ### 1 必要なパッケージのインストール
